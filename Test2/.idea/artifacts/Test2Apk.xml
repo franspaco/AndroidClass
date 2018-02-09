@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="Test2Apk">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/Test2Apk</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyStoreUrl" value="file://" />
+      </options>
+    </properties>
+    <root id="archive" name="Test2Apk.apk">
+      <element id="module-output" name="app" />
+    </root>
+  </artifact>
+</component>
