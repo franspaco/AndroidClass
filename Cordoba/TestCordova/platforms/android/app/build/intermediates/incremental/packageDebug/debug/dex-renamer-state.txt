@@ -1,0 +1,4 @@
+#Fri Feb 09 17:05:07 CST 2018
+base.0=P\:\\GitProjects\\AndroidClass\\Cordoba\\TestCordova\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=P\:\\GitProjects\\AndroidClass\\Cordoba\\TestCordova\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
