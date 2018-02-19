@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.franspaco.tareacomponentes.Activity2" android:orientation="vertical" android:weightSum="1">
+
+    <TextView
+            android:layout_weight="1"
+            android:text="@string/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView6"/>
+    <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/p3"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.04"/>
+    <TextView
+            android:layout_weight="1"
+            android:text="@string/p4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView7"/>
+    <RadioGroup
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/rgp4">
+        <RadioButton
+                android:text="@string/p4_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/p4_1" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/p4_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/p4_2" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/p4_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/p4_3" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/p4_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/p4_4" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/p4_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/p4_5" android:layout_weight="1"/>
+    </RadioGroup>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.06"/>
+    <TextView
+            android:layout_weight="1"
+            android:text="@string/p5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView8"/>
+    <ToggleButton
+            android:layout_weight="1"
+            android:textOn="Bueno"
+            android:textOff="Malo"
+            android:text="\?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/p5"
+            android:checked="false"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.06"/>
+    <TextView
+            android:layout_weight="1"
+            android:text="@string/p6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView9"/>
+    <RatingBar
+            android:layout_weight="1"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p6" android:isIndicator="false"/>
+    <Space
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <TextView
+            android:layout_weight="1"
+            android:text="@string/p7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView10"/>
+    <RatingBar
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/p7" android:numStars="5"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        <Space
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="match_parent"/>
+        <Button
+                android:text="Siguiente"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/button" android:layout_weight="1"
+                android:onClick="onClick_Next"/>
+    </LinearLayout>
+</LinearLayout>

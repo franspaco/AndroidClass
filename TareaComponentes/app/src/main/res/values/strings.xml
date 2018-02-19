@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TareaComponentes</string>
+    <string name="name">Nombre Completo</string>
+    <string name="email">Email</string>
+    <string name="phone">Telefono</string>
+    <string name="p1">¿Es útil el uso de nuestros servicios/productos para usted?</string>
+    <string name="p2">¿Cómo le parece el aspecto profesional de nuestra compañía?</string>
+    <string name="p3">¿Cuál es la calidad de nuestros servicios en la comparación con las compañías de competencia?
+    </string>
+    <string name="p4">¿Le parecen los precios de los productos y servicios más aceptables que los de las compañías de
+        competencia?
+    </string>
+    <string name="p5">¿De qué calidad era nuestro servicio a los clientes?</string>
+    <string name="p6">¿Estaba contento/a con nuestros empleados?</string>
+    <string name="p4_1">Mucho más aceptables</string>
+    <string name="p4_2">Me agrada las facilidades de pago</string>
+    <string name="p4_3">Igual de aceptables</string>
+    <string name="p4_4">Aceptables</string>
+    <string name="p4_5">Nada aceptables</string>
+    <string name="p7">¿Cuál es su evaluación total de nuestra compañía?</string>
+    <string name="p8">¿Recomendaría nuestra compañía a los demás?</string>
+    <string name="p9">Tus comentarios son muy valiosos</string>
+    <string name="contact">Danos tus datos de contacto:</string>
+    <string name="phone_us">Habla con nosotros:</string>
+    <string name="phoneNo">0118 999 881 999 119 725 3</string>
+</resources>
