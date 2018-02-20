@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tarea6</string>
+    <string name="title_p1">Page 1</string>
+    <string name="title_p2">Page 2</string>
+    <string name="title_p3">Page 3</string>
+    <string name="title_p4">Page 4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="p1_1">Coches\nIngresa una marca:</string>
+    <string name="p3_1">Escribe algo:</string>
+</resources>

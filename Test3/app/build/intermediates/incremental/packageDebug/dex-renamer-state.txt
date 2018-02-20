@@ -1,0 +1,7 @@
+#Thu Jan 25 15:48:03 CST 2018
+base.0=C\:\\Users\\franspaco\\Documents\\GitProjects\\Android\\Test3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e6cfd4740cfc6aa2c384c1283ecab7c7579bd243
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\franspaco\\Documents\\GitProjects\\Android\\Test3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5a89299ce986144d60d34b62aa25a0a38bf9c7f3\\classes.dex
+base.1=C\:\\Users\\franspaco\\Documents\\GitProjects\\Android\\Test3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5a89299ce986144d60d34b62aa25a0a38bf9c7f3
+file.0=C\:\\Users\\franspaco\\Documents\\GitProjects\\Android\\Test3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e6cfd4740cfc6aa2c384c1283ecab7c7579bd243\\classes.dex

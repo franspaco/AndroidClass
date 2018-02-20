@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\franspaco\\Documents\\GitProjects\\Android\\TestLibrary\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\franspaco\\.android\\build-cache\\a78172a961a3659b8981e48f6029dd4d37b510ab\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\franspaco\\Documents\\GitProjects\\Android\\TestLibrary\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\franspaco\\.android\\build-cache\\a78172a961a3659b8981e48f6029dd4d37b510ab\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\franspaco\\Documents\\GitProjects\\Android\\TestLibrary\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\franspaco\\.android\\build-cache\\a78172a961a3659b8981e48f6029dd4d37b510ab\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\franspaco\\Documents\\GitProjects\\Android\\TestLibrary\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\franspaco\\.android\\build-cache\\a78172a961a3659b8981e48f6029dd4d37b510ab\\output\\res\\layout-v21\\notification_action.xml"
+    }
+]

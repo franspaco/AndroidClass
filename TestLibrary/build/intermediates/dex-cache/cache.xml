@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\franspaco\.android\build-cache\b8d47babfb2e4596a9a2dc50e9a2679d23d036c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ca776e29618830275b873a381499bca122d8728\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8ef616aa7fc5bd43359d4053a4e05d09a6e3347e">
+        <dex dex="C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_618d5477a3e49420525c04ac55acd22a210f5747\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f7de38c067145658e989cdc5540197dd1cf31d87\classes.dex" />
+    </item>
+
+</items>

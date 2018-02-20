@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\franspaco\Documents\GitProjects\Android\Test3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="db972ee66179511ccd23df2e780a252bf497fa82">
+        <dex dex="C:\Users\franspaco\Documents\GitProjects\Android\Test3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e6cfd4740cfc6aa2c384c1283ecab7c7579bd243\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\franspaco\Documents\GitProjects\Android\Test3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="C:\Users\franspaco\Documents\GitProjects\Android\Test3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5a89299ce986144d60d34b62aa25a0a38bf9c7f3\classes.dex" />
+    </item>
+
+</items>

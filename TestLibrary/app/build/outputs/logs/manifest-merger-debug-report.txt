@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:3:11-46
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\franspaco\.android\build-cache\3cc6c06786371d710f6478d27c2166df288ed596\output\AndroidManifest.xml:9:5-20
+MERGED from [com.github.navasmdc:MaterialDesign:1.5] C:\Users\franspaco\.android\build-cache\b8d47babfb2e4596a9a2dc50e9a2679d23d036c8\output\AndroidManifest.xml:11:5-47
+	android:label
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:8:13-45
+	android:supportsRtl
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:10:13-39
+	android:roundIcon
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:9:13-58
+	android:allowBackup
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:6:13-39
+	android:icon
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:7:13-47
+	android:theme
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.franspaco.testlibrary.MainActivity
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.franspaco.testlibrary.DisplayActivity
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:19:9-20:20
+	android:name
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml:19:19-50
+uses-sdk
+INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\franspaco\.android\build-cache\450ce43668774086c3841dca912e4ac9a1d967fc\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\franspaco\.android\build-cache\0a9343eec904172efbc0d96e47235fc4cd860994\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\franspaco\.android\build-cache\55493d2f9ffb55505106a111d7a97904cde78909\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\franspaco\.android\build-cache\5869a90877285708321787a5f02f734b2cb12df6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\franspaco\.android\build-cache\69b39ac91cbaff8cb72cfe8fd9f32043d5003cae\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\franspaco\.android\build-cache\db4871ea22b03c1d675b86f9be9202855f6bdb8e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\franspaco\.android\build-cache\a78172a961a3659b8981e48f6029dd4d37b510ab\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\franspaco\.android\build-cache\17eba796e7d94f2811a7876feca77223824ee949\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\franspaco\.android\build-cache\3cc6c06786371d710f6478d27c2166df288ed596\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.navasmdc:MaterialDesign:1.5] C:\Users\franspaco\.android\build-cache\b8d47babfb2e4596a9a2dc50e9a2679d23d036c8\output\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TestLibrary\app\src\main\AndroidManifest.xml
