@@ -37,4 +37,6 @@ public class Page1 extends Fragment {
         return rootview;
     }
 
+
+
 }

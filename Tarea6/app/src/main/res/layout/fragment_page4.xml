@@ -5,9 +5,78 @@
              tools:context="com.franspaco.tarea6.Page4">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hello_blank_fragment"/>
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:text="Nombre" android:id="@+id/textView4"
+                android:layout_height="wrap_content"/>
+        <EditText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/p4_1"/>
+        <TextView
+                android:layout_weight="0.5"
+                android:text="email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView5"/>
+        <EditText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/p4_2" android:inputType="textEmailAddress"/>
+        <TextView
+                android:layout_weight="0.5"
+                android:text="telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView6"/>
+        <EditText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/p4_3" android:inputType="phone"/>
+        <TextView
+                android:layout_weight="0.5"
+                android:text="Direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView7"/>
+        <EditText
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/p4_4"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_weight="1"/>
+            <Button
+                    android:text="GUARDAR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/p4_save" android:layout_weight="1"/>
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_weight="1"/>
+            <Button
+                    android:text="LEER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/p4_load" android:layout_weight="1"/>
+            <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
 
 </FrameLayout>
