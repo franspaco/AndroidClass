@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.franspaco.tareasqlite.MainActivity1">
+
+    <FrameLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView
+                        android:text="Nombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/id_name"/>
+                <TextView
+                        android:text="Apellido"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView2"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@+id/id_last_name"/>
+                <Button
+                        android:text="@string/title_p1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/go_button"
+                        android:onClick="onClick_go_Button"/>
+                <TextView
+                        android:text="Email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView5"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@+id/id_email"/>
+                <TextView
+                        android:text="Sexo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView3"/>
+                <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:id="@+id/id_sex">
+                    <RadioButton
+                            android:text="Femenino"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/radioButton2"
+                    />
+                    <RadioButton
+                            android:text="Masculino"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/radioButton"
+                    />
+                </RadioGroup>
+                <TextView
+                        android:text="Dirección"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/textView4"/>
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="192dp"
+                        android:inputType="textMultiLine"
+                        android:ems="10"
+                        android:id="@+id/id_address"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/navigation"/>
+
+</LinearLayout>
