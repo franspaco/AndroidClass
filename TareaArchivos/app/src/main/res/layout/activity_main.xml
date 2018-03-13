@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.franspaco.tareaarchivos.MainActivity" android:orientation="vertical">
+
+    <TextView
+            android:text="Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView5"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/key"/>
+    <TextView
+            android:text="Teléfono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView6"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName|phone"
+            android:ems="10"
+            android:id="@+id/p0"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:text="Guardar"
+                android:onClick="onClick_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button2" android:layout_weight="1"/>
+        <Button
+                android:text="Buscar"
+                android:onClick="onClick_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+            android:text="Buscar por:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView7"/>
+    <ToggleButton
+            android:textOn="Nombre"
+            android:textOff="Telefono"
+            android:text="ToggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/searchType" android:checked="true"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="6">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+            <TextView
+                    android:text="Sexo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"/>
+            <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/p1">
+                <RadioButton
+                        android:text="Femenino"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton5"/>
+                <RadioButton
+                        android:text="Masculino"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton4"/>
+            </RadioGroup>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+            <TextView
+                    android:text="Tipo de suscripción"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView"/>
+            <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/p2">
+                <RadioButton
+                        android:text="Standard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton3"/>
+                <RadioButton
+                        android:text="Plus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton2"/>
+                <RadioButton
+                        android:text="Premium"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton"/>
+            </RadioGroup>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+            <TextView
+                    android:text="Seguros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView2"/>
+            <CheckBox
+                    android:text="Robo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/p3"/>
+            <CheckBox
+                    android:text="Choque"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/p4"/>
+            <CheckBox
+                    android:text="Mantenimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/p5"/>
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+            <TextView
+                    android:text="Garantía extendida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView4"/>
+            <ToggleButton
+                    android:textOn="Si"
+                    android:textOff="No"
+                    android:text="ToggleButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/p6"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
