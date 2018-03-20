@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TareaCRUD</string>
+    <string name="title_activity_main1">Base de datos</string>
+    <string name="title_p1">Insertar</string>
+    <string name="title_p2">Buscar Nombre</string>
+    <string name="title_p3">Buscar Apellido</string>
+</resources>
