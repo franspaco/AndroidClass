@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.itesm.csf.parseojson.paseaJSON">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wallpaper"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView2"
+        android:background="@android:color/black"
+        android:layout_above="@+id/boton_objetojson"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/boton_objetojson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parsea Objeto"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/boton_arreglojson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Parsea Arreglo" />
+
+</RelativeLayout>
