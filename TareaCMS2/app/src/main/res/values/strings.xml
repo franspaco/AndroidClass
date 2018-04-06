@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TareaCMS2</string>
+    <string name="title_p1">Marcas</string>
+    <string name="title_p2">Buscar Marca</string>
+    <string name="title_p3">Buscar Modelo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
