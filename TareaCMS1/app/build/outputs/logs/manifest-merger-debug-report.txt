@@ -1,0 +1,70 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:3:11-44
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\franspaco\.android\build-cache\3cc6c06786371d710f6478d27c2166df288ed596\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\franspaco\.android\build-cache\cac6bc0b4df10826b02b37389ba13103e3e190e2\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:8:13-45
+	android:supportsRtl
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:10:13-39
+	android:roundIcon
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:9:13-58
+	android:allowBackup
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:6:13-39
+	android:icon
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:7:13-47
+	android:theme
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.franspaco.tareacms1.MainActivity
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:16:27-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml:20:22-64
+uses-sdk
+INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\franspaco\.android\build-cache\1734622261ef239fffbfe6af8337aa29daf38e86\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\franspaco\.android\build-cache\49289802d4df27ff1d636f42534279c4abe63b0d\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\franspaco\.android\build-cache\d67065534025690e0d1c41c5ceaa82794f59cbd1\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\franspaco\.android\build-cache\6a9a3b0588e9964ccd11e91adef70ee46d7569f9\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\franspaco\.android\build-cache\e9b74cb15dfdb731eb56859015ba38b3fdf1a18b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\franspaco\.android\build-cache\88b125ab9c5c799a4915b11445a85f479a66381a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\franspaco\.android\build-cache\3a8850823f49e887ba52e27e9a1bee4805c562a2\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\franspaco\.android\build-cache\3735b67fac9149c380fe53bd7f0229072d3182c8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\franspaco\.android\build-cache\fe83e4ebe6ae6e8cc4993f6a6b5a843fb3675427\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\franspaco\.android\build-cache\1ec904653f7101851d66840b8f9d530dd2e547d6\output\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\franspaco\.android\build-cache\8187096d195394a205fdf092d7b85bd66183d86d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\franspaco\.android\build-cache\3cc6c06786371d710f6478d27c2166df288ed596\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\franspaco\.android\build-cache\cac6bc0b4df10826b02b37389ba13103e3e190e2\output\AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\franspaco\Documents\GitProjects\Android\TareaCMS1\app\src\main\AndroidManifest.xml
